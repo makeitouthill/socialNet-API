@@ -4,7 +4,7 @@
 ## Description
         
 A social network api that runs in the terminal. Users can add and delete friends and create accounts.
-
+![Gif of Functionality](./images/Social-network-api.gif) 
 ## Table of Contents
 - [Installation](#installation-installation)
 - [Usage](#usage-usage)
