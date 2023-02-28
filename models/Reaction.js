@@ -16,6 +16,11 @@ const reactionSchema = new Schema (
             default: Date.now,
             get: (timestamp) => moment(timestamp).format('YYYY-MM-DD [Z] HH:mm:ss a')
         },
+        // Require Unicode for emoji
+        emoji: {
+            type: String,
+            required: true,
+        },
     },
     {
         toJSON: {
